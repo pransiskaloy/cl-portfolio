@@ -287,6 +287,11 @@ h6 {
     padding-left: 160px;
   }
 }
+@media (min-width: 300px) {
+  .contactMe{
+  width: 80%;
+}
+}
 
 #hero:before {
   content: "";
@@ -404,6 +409,14 @@ section {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
+.about-me-personal{
+  line-height: 18px;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 10px;
+}
 .about .content h3 {
   font-weight: 700;
   font-size: 26px;
@@ -968,7 +981,7 @@ section {
 
 .testimonials .testimonial-item .quote-icon-left,
 .testimonials .testimonial-item .quote-icon-right {
-  color: #90c8fc;
+  color: #C19B87;
   font-size: 26px;
 }
 
